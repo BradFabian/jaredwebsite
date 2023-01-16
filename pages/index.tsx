@@ -5,7 +5,7 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import About from '../components/About'
 import Experience from '../components/Experience'
-import CaseStudies from '../components/CaseStudies'
+import Accolades from '../components/Accolades'
 import Plans from '../components/Plans'
 
 export default function Home() {
@@ -33,9 +33,9 @@ export default function Home() {
 <Experience />
 </section>
 
-   {/* Case Studies */}
-   <section id="casestudies" className="snap-center">
-<CaseStudies />
+   {/* Accolades */}
+   <section id="accolades" className="snap-center">
+<Accolades />
 </section>
 {/* Plans */}
 <section id="plans" className="snap-center">

@@ -27,8 +27,8 @@ function Hero({}: Props) {
         </h1>
         <div className='pt-5'>
            <Link  className="px-6 py-2 border border-[#24242424] rounded-full uppercase text-sm tracking-widest text-gray-500
-     transition-all hover:border-[#F7ABBA]/40 hover:text-[#F7ABBA]/40" href='#about'>
-           About 
+     transition-all hover:border-[#F7ABBA]/40 hover:text-[#F7ABBA]/40" href='#about' >
+          ABOUT
   </Link>
             
             <Link href='#experience' className="px-6 py-2 border border-[#24242424] rounded-full uppercase text-sm tracking-widest text-gray-500
@@ -38,7 +38,7 @@ function Hero({}: Props) {
            
             <Link href='#casestudies' className="px-6 py-2 border border-[#24242424] rounded-full uppercase text-sm tracking-widest text-gray-500
      transition-all hover:border-[#F7ABBA]/40 hover:text-[#F7ABBA]/40" >
-           Case Studies
+          Accolades
             </Link>
             
             <Link href='#plans' className="px-6 py-2 border border-[#24242424] rounded-full uppercase text-sm tracking-widest text-gray-500
