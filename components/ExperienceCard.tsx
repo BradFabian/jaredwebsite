@@ -8,7 +8,7 @@ function ExperienceCard({}: Props) {
         <img className="max-w-sm xl:h-[50px] xl:w-[320px] object-cover object-center" src="https://www.swiftcentre.org/content/images/2022/06/Untitled-10-1.png" />
        
         <div className="px-0 md:px-10">
-            <h4 text-4xl font-light>Forecaster</h4>
+            <h4 className="text-4xl font-light">Forecaster</h4>
             <p className="font-bold text-2xl mt-1">Swift Centre for Applied Forecasting</p>
 
             <ul className="list-disc space-y-4 ml-5 text-lg">

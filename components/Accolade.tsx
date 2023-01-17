@@ -2,10 +2,10 @@ import React from 'react'
 import { motion } from "framer-motion";
 import Image from 'next/image';
 type Props = {
-    directionLeft: boolean;
+    
 }
 
-function Accolade({directionLeft}: Props) {
+function Accolade({}: Props) {
   return (
     <div className="group relative flex cursor-pointer flex-col max-w-[80%]">
         <div className="stripe">

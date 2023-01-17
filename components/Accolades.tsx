@@ -11,7 +11,7 @@ export default function Accolades({}: Props) {
        
             
     
-        <div className="grid grid-cols-4 gap-5">
+        <div className="grid grid-cols-4 gap-5 mx-auto">
        <Accolade />
        <Accolade />
        <Accolade />
