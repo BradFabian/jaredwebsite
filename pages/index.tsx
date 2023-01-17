@@ -7,10 +7,11 @@ import About from '../components/About'
 import Experience from '../components/Experience'
 import Accolades from '../components/Accolades'
 import Plans from '../components/Plans'
+import ContactMe from '../components/ContactMe'
 
 export default function Home() {
   return (
-    <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0'>
+    <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll  overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#0a65f7]/80 '>
       <Head>
         <title>Jared Leibowich Portfolio</title>
       
@@ -34,7 +35,7 @@ export default function Home() {
 </section>
 
    {/* Accolades */}
-   <section id="accolades" className="snap-center">
+   <section id="accolades" className="snap-start">
 <Accolades />
 </section>
 {/* Plans */}
@@ -42,7 +43,9 @@ export default function Home() {
 <Plans />
 </section>
    {/* Contact Me */}
-
+   <section id="contactme" className="snap-start">
+<ContactMe />
+</section>
     </div>
   )
 }
