@@ -26,32 +26,29 @@ function Hero({}: Props) {
            
             <Cursor cursorColor='#F7ABBA' />
         </h1>
-        </div>
+       
         <div className='pt-5'>
            
-           <Link  className="px-6 py-2 border border-[#24242424] rounded-full uppercase text-sm tracking-widest text-gray-500
-     transition-all hover:border-[#F7ABBA]/40 hover:text-[#F7ABBA]/40" href='#about' >
-          ABOUT
+           <Link passHref href='/about' >
+         <button className="heroButton">ABOUT</button> 
             </Link>
             
-            <Link href='#experience'className="px-6 py-2 border border-[#24242424] rounded-full uppercase text-sm tracking-widest text-gray-500
-     transition-all hover:border-[#F7ABBA]/40 hover:text-[#F7ABBA]/40">
-           Experience
+            <Link href='#experience'>
+          <button className="heroButton">Experience</button> 
             </Link>
 
-            <Link href='#testimonials' className="px-6 py-2 border border-[#24242424] rounded-full uppercase text-sm tracking-widest text-gray-500
-     transition-all hover:border-[#F7ABBA]/40 hover:text-[#F7ABBA]/40" >
+            <Link href='#testimonials'>
            <button className="heroButton">Testimonials</button>
             </Link>
         
         
             
-            <Link href='#plans' className="px-6 py-2 border border-[#24242424] rounded-full uppercase text-sm tracking-widest text-gray-500
-     transition-all hover:border-[#F7ABBA]/40 hover:text-[#F7ABBA]/40" >
-            Plans
+            <Link href='#plans'>
+            <button className="heroButton">Plans</button>
             </Link>
            
        
+        </div>
         </div>
     </div>
   )
