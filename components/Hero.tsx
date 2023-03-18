@@ -1,9 +1,10 @@
 import React from 'react'
+import Link from 'next/link'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles'
 import Image from 'next/image'
 import myImg from '../images/IMG_8684.jpg'
-import Link from 'next/link'
+
 type Props = {}
 
 function Hero({}: Props) {
@@ -25,28 +26,32 @@ function Hero({}: Props) {
            
             <Cursor cursorColor='#F7ABBA' />
         </h1>
+        </div>
         <div className='pt-5'>
+           
            <Link  className="px-6 py-2 border border-[#24242424] rounded-full uppercase text-sm tracking-widest text-gray-500
      transition-all hover:border-[#F7ABBA]/40 hover:text-[#F7ABBA]/40" href='#about' >
           ABOUT
-  </Link>
+            </Link>
             
-            <Link href='#experience' className="px-6 py-2 border border-[#24242424] rounded-full uppercase text-sm tracking-widest text-gray-500
-     transition-all hover:border-[#F7ABBA]/40 hover:text-[#F7ABBA]/40" >
-            Experience 
+            <Link href='#experience'className="px-6 py-2 border border-[#24242424] rounded-full uppercase text-sm tracking-widest text-gray-500
+     transition-all hover:border-[#F7ABBA]/40 hover:text-[#F7ABBA]/40">
+           Experience
             </Link>
-           
-            <Link href='#casestudies' className="px-6 py-2 border border-[#24242424] rounded-full uppercase text-sm tracking-widest text-gray-500
+
+            <Link href='#testimonials' className="px-6 py-2 border border-[#24242424] rounded-full uppercase text-sm tracking-widest text-gray-500
      transition-all hover:border-[#F7ABBA]/40 hover:text-[#F7ABBA]/40" >
-          Accolades
+           <button className="heroButton">Testimonials</button>
             </Link>
+        
+        
             
             <Link href='#plans' className="px-6 py-2 border border-[#24242424] rounded-full uppercase text-sm tracking-widest text-gray-500
      transition-all hover:border-[#F7ABBA]/40 hover:text-[#F7ABBA]/40" >
             Plans
             </Link>
            
-        </div>
+       
         </div>
     </div>
   )

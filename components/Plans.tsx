@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 type Props = {}
 
-export default function Experience({}: Props) {
+export default function Plans({}: Props) {
   return (
     <motion.div
     initial={{
@@ -22,7 +22,7 @@ export default function Experience({}: Props) {
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>Plans</h3>
        
         
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-4 gap-4 overflow-x-scroll snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#0a65f7]/80 mx-auto">
             < PlansCard/>
             < PlansCard />
             < PlansCard />
