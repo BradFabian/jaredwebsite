@@ -5,7 +5,7 @@ type Props = {}
 function PlansCard({}: Props) {
   return (
    
-<div className="w-64 max-w-[16rem] p-4 bg-white shadow-lg rounded-2xl dark:bg-gray-800">
+<div className="w-64 min-w-[14rem] p-4 bg-white shadow-lg rounded-2xl dark:bg-gray-800">
     <p className="mb-4 text-xl font-medium text-gray-800 dark:text-gray-50">
         Entreprise
     </p>
