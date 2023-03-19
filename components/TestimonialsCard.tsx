@@ -6,7 +6,7 @@ function TestimonialsCard({}: Props) {
   return (
    
 
-<div className="flex flex-col items-center w-full gap-4 p-8 mb-8 md:flex-row md:mb-0 flex-between">
+<div className="flex flex-col items-center w-full min-w-[288px] gap-4 p-8 mb-8 md:flex-row md:mb-0 flex-between">
     <div className="bg-white dark:bg-gray-800 w-72 shadow-lg mx-auto rounded-xl p-4">
         <p className="text-gray-600 dark:text-white">
             <span className="text-lg font-bold text-[#0a65f7]">
