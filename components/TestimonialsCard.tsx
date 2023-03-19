@@ -12,7 +12,7 @@ function TestimonialsCard({}: Props) {
             <span className="text-lg font-bold text-[#0a65f7]">
                 “
             </span>
-            I am pleased to endorse Jared as an exceptionally talented forecaster. His first-place finishes in the 2021 and 2022 editions of the 'In the News' forecasting challenge—both by wide margins—speak for themselves...
+            I am pleased to endorse Jared as an exceptionally talented forecaster. His first-place finishes in the 2021 and 2022 editions of the In the News forecasting challenge—both by wide margins—speak for themselves...
             <span className="text-lg font-bold text-[#0a65f7]">
                 ”
             </span>
