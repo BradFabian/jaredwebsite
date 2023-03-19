@@ -22,7 +22,7 @@ export default function Experience({}: Props) {
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>Experience</h3>
        
         
-        <div className="flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#0a65f7]/80 mx-auto">
+        <div className="flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#0a65f7]/80 mx-auto w-full lg:justify-center justify-start">
             < ExperienceCard />
             < ExperienceCard />
             < ExperienceCard />
